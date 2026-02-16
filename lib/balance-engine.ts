@@ -1,4 +1,4 @@
-// Balance Calculation Engine for Sunricort Accounting
+// Balance Calculation Engine for Samuel Accounting
 // Handles real-time balance calculations from transaction history
 
 export interface Transaction {

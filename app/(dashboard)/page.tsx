@@ -31,6 +31,12 @@ import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Accounting - Samuel Kaoma",
+  description: "Accounting Application",
+};
 
 export default async function DashboardPage() {
   const session = await auth.api.getSession({

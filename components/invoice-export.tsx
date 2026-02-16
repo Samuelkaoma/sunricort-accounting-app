@@ -188,14 +188,14 @@ export const InvoicePDF: React.FC<InvoicePDFProps> = ({ invoice }) => (
           <View style={styles.headerWithLogo}>
             <Image style={styles.logoSmall} src="/logo.png" />
             <View>
-              <Text style={styles.companyName}>SUNRICORT IT N SECURITY</Text>
+              <Text style={styles.companyName}>Samuel Kaoma Accounting System</Text>
             </View>
           </View>
           <Text style={styles.companyInfo}>
-            12869, Great N Rd{"\n"}
-            Chibombo 00000{"\n"}
-            Phone: 095 6282792{"\n"}
-            Email: info@sunricort.com
+            1234, Great East Road{"\n"}
+            Lusaka 00000{"\n"}
+            Phone: 0762112817{"\n"}
+            Email: samuelkaomaa@gmail.com
           </Text>
         </View>
 
@@ -294,7 +294,7 @@ export const InvoicePDF: React.FC<InvoicePDFProps> = ({ invoice }) => (
 
       {/* ---------- FOOTER ---------- */}
       <View style={styles.footer}>
-        <Text>Thank you for trusting Sunricort!</Text>
+        <Text>Thank you for trusting Samuel!</Text>
       </View>
     </Page>
   </Document>

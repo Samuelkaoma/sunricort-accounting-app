@@ -118,7 +118,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             Logout
           </Link>
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Sunricort. All rights
+            &copy; {new Date().getFullYear()} Samuel Kaoma. All rights
             reserved.
           </p>
         </div>

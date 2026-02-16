@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sunricort - Accounting",
-  description: "Suncricort Accounting Application",
+   title: "Accounting - Samuel Kaoma",
+  description: "Accounting Application",
 };
 
 export default function RootLayout({

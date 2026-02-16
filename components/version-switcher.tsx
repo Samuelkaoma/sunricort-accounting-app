@@ -20,10 +20,10 @@ export function VersionSwitcher() {
           className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
         >
           <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-9 items-center justify-center rounded-full">
-            <Image src={LOGO} alt="Sunricort Logo" width={32} height={32} />
+            <Image src={LOGO} alt="Samuel Logo" width={32} height={32} />
           </div>
           <div className="flex flex-col gap-0.5 leading-none">
-            <span className="font-medium">Sunricort Accounting</span>
+            <span className="font-medium">Samuel Accounting</span>
           </div>
         </SidebarMenuButton>
       </SidebarMenuItem>

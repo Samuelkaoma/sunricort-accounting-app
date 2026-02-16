@@ -22,9 +22,16 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@auth": [
+        "./lib/auth.ts"
+      ],
+      "@db/*": [
+        "./db/*"
       ]
     }
   },
@@ -33,6 +40,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "./**/*.ts",
+    "./**/*.tsx",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
   ],
